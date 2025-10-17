@@ -3,7 +3,6 @@ message: "Avoid first-person pronouns such as '%s'."
 link: 'https://developers.google.com/style/pronouns#personal-pronouns'
 ignorecase: true
 level: warning
-nonword: true
 tokens:
   - (?:^|\s)I\s
   - (?:^|\s)I,\s
