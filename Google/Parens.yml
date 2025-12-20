@@ -4,4 +4,4 @@ link: 'https://developers.google.com/style/parentheses'
 nonword: true
 level: suggestion
 tokens:
-  - '\(.+\)'
+  - '\((?![A-Z]{3,5}\b)([^)]+)\)'
