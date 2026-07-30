@@ -3,5 +3,13 @@ message: "Use the Oxford comma in '%s'."
 link: 'https://developers.google.com/style/commas'
 scope: sentence
 level: warning
+nonword: true
+# List items may be several words long, not just one. Two guards keep the
+# false-positive rate down: the item can't open with a clause-introducer
+# (', which ...', ', specifically ...'), and neither item may contain an
+# auxiliary verb, which is what separates a list from a compound predicate
+# (', it has some downsides and is officially discouraged.'). The trailing
+# anchor allows end-of-scope so list fragments ('Apples, pears or bananas')
+# are still caught.
 tokens:
-  - '(?:[^,]+,){1,}\s\w+\s(?:and|or)'
+  - ',\s(?!(?:which|who|whom|whose|that|where|when|while|because|since|although|though|if|unless|so|but|and|or|however|therefore|thus|specifically|especially|namely|then|take|see|note|consider|make|use|either|neither)\b)(?:(?!\b(?:is|are|was|were|has|have|had|be|been|being|will|would|can|could|should|may|might|must|do|does|did)\b)\w+ ){0,4}\w+ (?:and|or) (?:(?!\b(?:is|are|was|were|has|have|had|be|been|being|will|would|can|could|should|may|might|must|do|does|did)\b)\w+ ){0,4}\w+(?:[.?!]|$)'

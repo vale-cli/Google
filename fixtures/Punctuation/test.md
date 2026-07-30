@@ -37,3 +37,13 @@ this is a sentence. so is this one.
 This sentence is okay.  This one is not.
 
 The latest version of .NET Core is awesome!
+
+I like red, blue, green and orange.
+
+I like red, blue, green, and orange.
+
+Save your file to a hard drive, an external drive or OneDrive.
+
+If this happens, lexical and syntactic information is available in addition to the values.
+
+The earliest versions, ES1 and ES2, were not widely known or implemented.

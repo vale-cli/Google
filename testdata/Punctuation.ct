@@ -4,7 +4,7 @@ test.md:3:5:Google.Periods:Don't use periods with acronyms or initialisms such a
 test.md:5:18:Google.OptionalPlurals:Don't use plurals in parentheses such as in 'key(s)'.
 test.md:5:21:Google.Parens:Use parentheses judiciously.
 test.md:7:5:Google.Colons:': C' should be in lowercase.
-test.md:9:1:Google.OxfordComma:Use the Oxford comma in 'I dedicate this book to my parents, Ayn, Rand and'.
+test.md:9:40:Google.OxfordComma:Use the Oxford comma in ', Rand and God.'.
 test.md:11:46:Google.EmDash:Don't put a space before or after a dash.
 test.md:13:24:Google.EmDash:Don't put a space before or after a dash.
 test.md:13:27:Google.Exclamation:Don't use exclamation points in text.
@@ -15,7 +15,9 @@ test.md:23:13:Google.Parens:Use parentheses judiciously.
 test.md:25:24:Google.Quotes:Commas and periods go inside quotation marks.
 test.md:27:34:Google.Semicolons:Use semicolons judiciously.
 test.md:27:43:Google.Exclamation:Don't use exclamation points in text.
-test.md:29:1:Google.OxfordComma:Use the Oxford comma in 'Apples, pears or'.
+test.md:29:7:Google.OxfordComma:Use the Oxford comma in ', pears or bananas'.
 test.md:33:1:Google.Exclamation:Don't use exclamation points in text.
 test.md:37:21:Google.Spacing:'y.  T' should have one space.
 test.md:39:36:Google.Exclamation:Don't use exclamation points in text.
+test.md:41:17:Google.OxfordComma:Use the Oxford comma in ', green and orange.'.
+test.md:45:31:Google.OxfordComma:Use the Oxford comma in ', an external drive or OneDrive.'.
