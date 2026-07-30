@@ -1,0 +1,30 @@
+# Punctuation — https://developers.google.com/style/
+
+# Colons.yml
+colons: true
+
+# OxfordComma.yml
+commas: true
+
+# EmDash.yml
+dashes: true
+
+# Ellipses.yml
+ellipses: true
+
+# LyHyphens.yml, Ranges.yml
+hyphens: true
+
+# Parens.yml
+parentheses: true
+
+# Exclamation.yml, Spacing.yml
+periods: true
+
+# Quotes.yml
+quotation-marks: true
+
+# Semicolons.yml
+semicolons: true
+
+slashes: false

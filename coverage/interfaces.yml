@@ -1,0 +1,13 @@
+# Computer interfaces — https://developers.google.com/style/
+
+api-reference-comments: false
+
+code-in-text: false
+
+code-samples: false
+
+code-syntax: false
+
+placeholders: false
+
+ui-elements: false

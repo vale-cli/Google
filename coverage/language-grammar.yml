@@ -1,0 +1,37 @@
+# Language and grammar — https://developers.google.com/style/
+
+# Acronyms.yml, Latin.yml, Periods.yml, Slang.yml
+abbreviations: true
+
+# Passive.yml
+voice: true
+
+# Anthropomorphism.yml
+anthropomorphism: true
+
+articles: false
+
+# HeadingPunctuation.yml, Headings.yml
+capitalization: true
+
+# Contractions.yml
+contractions: true
+
+# OptionalPlurals.yml
+pluralization: true
+
+possessives: false
+
+prepositions: false
+
+# Will.yml
+tense: true
+
+# FirstPerson.yml, Gender.yml, We.yml
+pronouns: true
+
+person: false
+
+sentence-structure: false
+
+reference-verbs: false

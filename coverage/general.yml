@@ -1,0 +1,29 @@
+# General principles — https://developers.google.com/style/
+
+product-names: false
+
+text-formatting: false
+
+accessibility: false
+
+# ExcessiveClaims.yml
+excessive-claims: true
+
+future: false
+
+translation: false
+
+# GenderBias.yml
+inclusive-documentation: true
+
+# Jargon.yml
+jargon: true
+
+prescriptive-documentation: false
+
+other-sources: false
+
+# Timeless.yml
+timeless-documentation: true
+
+tone: false

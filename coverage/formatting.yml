@@ -1,0 +1,34 @@
+# Formatting and organization — https://developers.google.com/style/
+
+# DateFormat.yml
+dates-times: true
+
+format-examples: false
+
+images: false
+
+footnotes: false
+
+headings: false
+
+italics-terms: false
+
+lists: false
+
+mathematical-notation: false
+
+notices: false
+
+# Ordinal.yml
+numbers: true
+
+paragraph-structure: false
+
+phone-numbers: false
+
+procedures: false
+
+tables: false
+
+# Units.yml
+units-of-measure: true
