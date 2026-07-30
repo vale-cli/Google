@@ -13,3 +13,9 @@
 # This vs. heading
 
 # This is a heading: This is a subheading
+
+### Optimizing for writing: brainstorming
+
+### Optimizing for reading: eye exam
+
+## Libraries and physical infrastructure
