@@ -3,7 +3,7 @@ $ vale --output=line --sort --normalize --relative --no-global --no-exit .
 test.md:3:5:Google.Periods:Don't use periods with acronyms or initialisms such as 'N.B.A.'.
 test.md:5:18:Google.OptionalPlurals:Don't use plurals in parentheses such as in 'key(s)'.
 test.md:5:21:Google.Parens:Use parentheses judiciously.
-test.md:7:5:Google.Colons:': C' should be in lowercase.
+test.md:7:7:Google.Colons:'Concise' should be in lowercase.
 test.md:9:40:Google.OxfordComma:Use the Oxford comma in ', Rand and God.'.
 test.md:11:46:Google.EmDash:Don't put a space before or after a dash.
 test.md:13:24:Google.EmDash:Don't put a space before or after a dash.
@@ -23,4 +23,4 @@ test.md:41:17:Google.OxfordComma:Use the Oxford comma in ', green and orange.'.
 test.md:45:31:Google.OxfordComma:Use the Oxford comma in ', an external drive or OneDrive.'.
 test.md:51:6:Google.Parens:Use parentheses judiciously.
 test.md:51:21:Google.Parens:Use parentheses judiciously.
-test.md:57:18:Google.Colons:': A' should be in lowercase.
+test.md:57:20:Google.Colons:'Apples' should be in lowercase.
