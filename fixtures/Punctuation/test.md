@@ -55,3 +55,7 @@ Note: Cloud Storage is available.
 Caution: Deleting this is permanent.
 
 The list includes: Apples and pears.
+
+The National Aeronautics and Space Administration (NASA) runs it.
+
+The agency (NASA rocket program) is large.
