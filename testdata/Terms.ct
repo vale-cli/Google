@@ -1,17 +1,17 @@
 $ cdf ${ROOTDIR}/fixtures/Terms
 $ vale --output=line --sort --normalize --relative --no-global --no-exit .
-test.md:9:1:Google.FirstPerson:Avoid first-person pronouns such as 'I '.
-test.md:17:1:Google.FirstPerson:Avoid first-person pronouns such as 'I '.
+test.md:9:1:Google.FirstPerson:Avoid first-person pronouns such as 'I'.
+test.md:17:1:Google.FirstPerson:Avoid first-person pronouns such as 'I'.
 test.md:19:13:Google.FirstPerson:Avoid first-person pronouns such as 'me'.
 test.md:21:1:Google.Slang:Don't use internet slang abbreviations such as 'TL;DR'.
 test.md:21:19:Google.Slang:Don't use internet slang abbreviations such as 'RTFM'.
 test.md:23:21:Google.Slang:Don't use internet slang abbreviations such as 'IMO'.
 test.md:25:1:Google.Will:Avoid using 'Will'.
 test.md:25:18:Google.FirstPerson:Avoid first-person pronouns such as 'my'.
-test.md:27:1:Google.FirstPerson:Avoid first-person pronouns such as 'I '.
+test.md:27:1:Google.FirstPerson:Avoid first-person pronouns such as 'I'.
 test.md:27:3:Google.Spelling:In general, use American spelling instead of 'organised'.
 test.md:29:21:Google.WordListCase:Use 'preceding' instead of 'above'.
-test.md:31:1:Google.FirstPerson:Avoid first-person pronouns such as 'I '.
+test.md:31:1:Google.FirstPerson:Avoid first-person pronouns such as 'I'.
 test.md:31:8:Google.FirstPerson:Avoid first-person pronouns such as 'my'.
 test.md:31:11:Google.WordListCase:Use 'phone' or 'mobile phone' instead of 'cell phone'.
 test.md:37:12:Google.WordListCase:Use 'OAuth 2.0' instead of 'OAuth 2'.
