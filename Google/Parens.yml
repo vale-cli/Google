@@ -3,5 +3,8 @@ message: "Use parentheses judiciously."
 link: 'https://developers.google.com/style/parentheses'
 nonword: true
 level: suggestion
+# `[^)]` rather than `.+`: a greedy match ran from the first '(' on a line to
+# the last ')', so 'Text (one) and more (two).' produced a single alert
+# covering everything between them. See issue #30.
 tokens:
-  - '\(.+\)'
+  - '\([^)]+\)'
