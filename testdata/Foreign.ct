@@ -1,3 +1,6 @@
 $ cdf ${ROOTDIR}/fixtures/Foreign
 $ vale --output=line --sort --normalize --relative --no-global --no-exit .
 test.md:3:31:Google.Latin:Use 'that is' instead of 'i.e.'.
+test.md:5:10:Google.Latin:Use 'for example' instead of 'e.g.'.
+test.md:7:10:Google.Latin:Use 'for example' instead of 'e.g.'.
+test.md:9:13:Google.Latin:Use 'that is' instead of 'i.e.'.
