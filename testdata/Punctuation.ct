@@ -1,0 +1,21 @@
+$ cdf ${ROOTDIR}/fixtures/Punctuation
+$ vale --output=line --sort --normalize --relative --no-global --no-exit .
+test.md:3:5:Google.Periods:Don't use periods with acronyms or initialisms such as 'N.B.A.'.
+test.md:5:18:Google.OptionalPlurals:Don't use plurals in parentheses such as in 'key(s)'.
+test.md:5:21:Google.Parens:Use parentheses judiciously.
+test.md:7:5:Google.Colons:': C' should be in lowercase.
+test.md:9:1:Google.OxfordComma:Use the Oxford comma in 'I dedicate this book to my parents, Ayn, Rand and'.
+test.md:11:46:Google.EmDash:Don't put a space before or after a dash.
+test.md:13:24:Google.EmDash:Don't put a space before or after a dash.
+test.md:13:27:Google.Exclamation:Don't use exclamation points in text.
+test.md:15:5:Google.Ellipses:In general, don't use an ellipsis.
+test.md:17:8:Google.Exclamation:Don't use exclamation points in text.
+test.md:19:19:Google.LyHyphens:'publicly-available' doesn't need a hyphen.
+test.md:23:13:Google.Parens:Use parentheses judiciously.
+test.md:25:24:Google.Quotes:Commas and periods go inside quotation marks.
+test.md:27:34:Google.Semicolons:Use semicolons judiciously.
+test.md:27:43:Google.Exclamation:Don't use exclamation points in text.
+test.md:29:1:Google.OxfordComma:Use the Oxford comma in 'Apples, pears or'.
+test.md:33:1:Google.Exclamation:Don't use exclamation points in text.
+test.md:37:21:Google.Spacing:'y.  T' should have one space.
+test.md:39:36:Google.Exclamation:Don't use exclamation points in text.

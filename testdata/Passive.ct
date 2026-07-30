@@ -1,0 +1,3 @@
+$ cdf ${ROOTDIR}/fixtures/Passive
+$ vale --output=line --sort --normalize --relative --no-global --no-exit .
+test.md:3:6:Google.Passive:In general, use active voice instead of passive voice ('was broken').

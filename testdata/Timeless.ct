@@ -1,0 +1,5 @@
+$ cdf ${ROOTDIR}/fixtures/Timeless
+$ vale --output=line --sort --normalize --relative --no-global --no-exit .
+test.md:3:30:Google.Timeless:Avoid time-based words like 'currently' in product documentation.
+test.md:5:13:Google.Timeless:Avoid time-based words like 'latest' in product documentation.
+test.md:7:21:Google.Timeless:Avoid time-based words like 'soon' in product documentation.

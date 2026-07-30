@@ -1,0 +1,4 @@
+$ cdf ${ROOTDIR}/fixtures/Headings
+$ vale --output=line --sort --normalize --relative --no-global --no-exit .
+test.md:5:3:Google.Headings:'This is a Heading' should use sentence-style capitalization.
+test.md:7:13:Google.HeadingPunctuation:Don't put a period at the end of a heading.

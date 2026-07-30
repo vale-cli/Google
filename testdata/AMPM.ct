@@ -1,0 +1,4 @@
+$ cdf ${ROOTDIR}/fixtures/AMPM
+$ vale --output=line --sort --normalize --relative --no-global --no-exit .
+test.md:3:14:Google.AMPM:Use 'AM' or 'PM' (preceded by a space).
+test.md:5:18:Google.AMPM:Use 'AM' or 'PM' (preceded by a space).

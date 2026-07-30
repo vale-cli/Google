@@ -1,0 +1,3 @@
+$ cdf ${ROOTDIR}/fixtures/Foreign
+$ vale --output=line --sort --normalize --relative --no-global --no-exit .
+test.md:3:31:Google.Latin:Use 'that is' instead of 'i.e.'.

@@ -1,0 +1,4 @@
+$ cdf ${ROOTDIR}/fixtures/Anthropomorphism
+$ vale --output=line --sort --normalize --relative --no-global --no-exit .
+test.md:3:8:Google.Anthropomorphism:Don't attribute human qualities to software or hardware ('sees').
+test.md:5:20:Google.Anthropomorphism:Don't attribute human qualities to software or hardware ('tells').

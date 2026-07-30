@@ -1,0 +1,7 @@
+$ cdf ${ROOTDIR}/fixtures/Jargon
+$ vale --output=line --sort --normalize --relative --no-global --no-exit .
+test.md:3:9:Google.Jargon:Avoid the jargon 'out-of-the-box'.
+test.md:5:12:Google.Jargon:Avoid the jargon 'break-glass'.
+test.md:7:8:Google.Jargon:Avoid the jargon 'swim lane'.
+test.md:9:5:Google.Jargon:Avoid the jargon 'camelCase'.
+test.md:9:22:Google.Jargon:Avoid the jargon 'swimlane'.

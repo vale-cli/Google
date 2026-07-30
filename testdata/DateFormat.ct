@@ -1,0 +1,9 @@
+$ cdf ${ROOTDIR}/fixtures/DateFormat
+$ vale --output=line --sort --normalize --relative --no-global --no-exit .
+test.md:3:6:Google.DateFormat:Use 'July 31, 2016' format, not '12 Mar 2016'.
+test.md:7:14:Google.DateFormat:Use 'July 31, 2016' format, not '6/12/2017'.
+test.md:9:12:Google.DateFormat:Use 'July 31, 2016' format, not '15 Apr 2016'.
+test.md:9:25:Google.DateFormat:Use 'July 31, 2016' format, not '3 Jun 2016'.
+test.md:9:37:Google.DateFormat:Use 'July 31, 2016' format, not '4 Jul 2016'.
+test.md:9:49:Google.DateFormat:Use 'July 31, 2016' format, not '5 Aug 2016'.
+test.md:9:65:Google.DateFormat:Use 'July 31, 2016' format, not '6 Oct 2016'.

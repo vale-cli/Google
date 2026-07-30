@@ -1,0 +1,6 @@
+$ cdf ${ROOTDIR}/fixtures/ExcessiveClaims
+$ vale --output=line --sort --normalize --relative --no-global --no-exit .
+test.md:3:20:Google.ExcessiveClaims:Avoid the unverifiable claim 'fastest'.
+test.md:5:11:Google.ExcessiveClaims:Avoid the unverifiable claim 'best'.
+test.md:7:13:Google.ExcessiveClaims:Avoid the unverifiable claim 'simplest'.
+test.md:9:13:Google.ExcessiveClaims:Avoid the unverifiable claim 'guarantees'.

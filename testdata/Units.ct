@@ -1,0 +1,7 @@
+$ cdf ${ROOTDIR}/fixtures/Units
+$ vale --output=line --sort --normalize --relative --no-global --no-exit .
+test.md:5:10:Google.Units:Put a nonbreaking space between the number and the unit in '64GB'.
+test.md:6:26:Google.Units:Put a nonbreaking space between the number and the unit in '30s'.
+test.md:12:7:Google.Units:Put a nonbreaking space between the number and the unit in '5min'.
+test.md:12:16:Google.Units:Put a nonbreaking space between the number and the unit in '300ms'.
+test.md:12:28:Google.Units:Put a nonbreaking space between the number and the unit in '2TB'.
