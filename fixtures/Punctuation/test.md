@@ -49,3 +49,9 @@ If this happens, lexical and syntactic information is available in addition to t
 The earliest versions, ES1 and ES2, were not widely known or implemented.
 
 Text (one) and more (two) here.
+
+Note: Cloud Storage is available.
+
+Caution: Deleting this is permanent.
+
+The list includes: Apples and pears.

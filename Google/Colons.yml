@@ -4,5 +4,9 @@ link: 'https://developers.google.com/style/colons'
 nonword: true
 level: warning
 scope: sentence
+# The guide exempts text after a notice label ('Caution: Deleting this is
+# permanent.'), so the four label types are excluded here. It also exempts
+# proper nouns and quotes, which this check can't detect — `existence` has no
+# exceptions field. See issue #20.
 tokens:
-  - '(?<!:[^ ]+?):\s[A-Z]'
+  - '(?<!:[^ ]+?)(?<!Note)(?<!Caution)(?<!Warning)(?<!Success):\s[A-Z]'

@@ -23,3 +23,4 @@ test.md:41:17:Google.OxfordComma:Use the Oxford comma in ', green and orange.'.
 test.md:45:31:Google.OxfordComma:Use the Oxford comma in ', an external drive or OneDrive.'.
 test.md:51:6:Google.Parens:Use parentheses judiciously.
 test.md:51:21:Google.Parens:Use parentheses judiciously.
+test.md:57:18:Google.Colons:': A' should be in lowercase.
