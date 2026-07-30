@@ -14,3 +14,7 @@ test.md:29:21:Google.WordListCase:Use 'preceding' instead of 'above'.
 test.md:31:1:Google.FirstPerson:Avoid first-person pronouns such as 'I '.
 test.md:31:8:Google.FirstPerson:Avoid first-person pronouns such as 'my'.
 test.md:31:11:Google.WordListCase:Use 'phone' or 'mobile phone' instead of 'cell phone'.
+test.md:37:12:Google.WordListCase:Use 'OAuth 2.0' instead of 'OAuth 2'.
+test.md:37:21:Google.WordListCase:Use 'OAuth 2.0' instead of 'OAuth2'.
+test.md:37:29:Google.WordListCase:Use 'OAuth 2.0' instead of 'OAuth2.0'.
+test.md:37:43:Google.WordListCase:Use 'OAuth 2.0' instead of 'Oauth'.

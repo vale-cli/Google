@@ -31,3 +31,7 @@ Look at the section above.
 I used my cell phone to make the call.
 
 Please check back later.
+
+We support OAuth 2.0 for authentication.
+
+We support OAuth 2, OAuth2, OAuth2.0, and Oauth.

@@ -15,7 +15,10 @@ swap:
   "(?:e-mail|Email|E-mail)": email
   "(?:file ?path|path ?name)": path
   "(?:kill|terminate|abort)": stop|exit|cancel|end
-  "(?i)\\bOauth\\b(?! 2\\.0)|\\bOauth2\\.0\\b|\\bOAuth ?2\\b(?!\\.0)": OAuth 2.0
+  # Longest form first: with the shortest alternative leading, 'OAuth 2' matched
+  # only 'OAuth', so applying the suggestion produced 'OAuth 2.0 2'. The rule is
+  # already case-insensitive, so the inline (?i) is redundant. See issue #41.
+  '\bOauth2\.0\b|\bOAuth ?2\b(?!\.0)|\bOauth\b(?! ?2)': OAuth 2.0
   "(?:ok|Okay)": OK|okay
   "(?:WiFi|wifi)": Wi-Fi
   '[\.]+apk': APK
