@@ -25,3 +25,4 @@ test.md:51:6:Google.Parens:Use parentheses judiciously.
 test.md:51:21:Google.Parens:Use parentheses judiciously.
 test.md:57:20:Google.Colons:'Apples' should be in lowercase.
 test.md:61:12:Google.Parens:Use parentheses judiciously.
+test.md:69:22:Google.OxfordComma:Use the Oxford comma in ', pears or bananas get wet.'.

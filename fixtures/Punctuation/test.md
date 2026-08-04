@@ -59,3 +59,11 @@ The list includes: Apples and pears.
 The National Aeronautics and Space Administration (NASA) runs it.
 
 The agency (NASA rocket program) is large.
+
+When your alarm clock rings, you turn it off and tumble out of bed.
+
+When your belly rumbles, you walk to the fridge and get a snack.
+
+When the alarm rings, John turns it off and tumbles out of bed.
+
+When it rains, apples, pears or bananas get wet.
