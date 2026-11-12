@@ -16,3 +16,4 @@ test.md:33:7:Google.OxfordComma:Use the Oxford comma in ', pears or bananas'.
 test.md:35:22:Google.OxfordComma:Use the Oxford comma in ', pears or bananas get wet.'.
 test.md:94:38:Google.OxfordComma:Use the Oxford comma in ', spaced or bare.'.
 test.md:100:55:Google.OxfordComma:Use the Oxford comma in ', fear or anxiety.'.
+test.md:111:25:Google.OxfordComma:Use the Oxford comma in ', pears or bananas rot.'.
